@@ -75,6 +75,11 @@ const App: React.FC = () => {
         // init={particlesInit}
         // loaded={particlesLoaded}
         options={{
+          background: {
+            color: {
+              value: "#0d47a1",
+            },
+          },
           particles: {
             number: {
               value: 80,
